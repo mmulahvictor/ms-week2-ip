@@ -35,3 +35,15 @@ nav > .nav > a, .header > p{
     padding-left: 60px;
     font-size: 35px;
 }
+.sect1{
+    display: flex;
+    padding-top: 40px;
+}
+.image1{
+    height: 600px;
+}
+.hustle{
+    padding-left: 100px;
+    padding-right: 350px;
+    padding-top: 200px;
+}
