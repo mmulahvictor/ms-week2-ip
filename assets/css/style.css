@@ -1,0 +1,31 @@
+#navigation{
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    padding-top: 45px;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+nav a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 15px;
+    color: white;
+}
+nav button{
+    background-color: orange;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+}
+#header{
+    display: flex;
+    padding-left: 170px;
+    padding-bottom: 10px;
+}
+.header2{
+    padding-left: 550px;
+}
