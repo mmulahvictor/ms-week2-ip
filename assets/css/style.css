@@ -1,5 +1,5 @@
 #navigation{
-    background-color: black;
+    background-color: rgb(22,15,2);
     color: white;
 }
 nav{
@@ -17,7 +17,7 @@ nav a{
     color: white;
 }
 nav button{
-    background-color: orange;
+    background-color: rgb(250,172,49);
     font-size: 20px;
     border-top-right-radius: 10px;
 }
@@ -28,4 +28,10 @@ nav button{
 }
 .header2{
     padding-left: 550px;
+}
+.kitchen{
+    height: 500px;
+}
+.sub-img{
+    height: 95px;
 }
