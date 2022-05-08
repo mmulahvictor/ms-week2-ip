@@ -1,5 +1,6 @@
 body{
     background-color: rgb(245,245,245);
+    margin-left: 40px;
 }
 #navigation{
     background-color: rgb(22,15,2);
@@ -35,6 +36,9 @@ a:hover {
 .header2{
     padding-left: 550px;
 }
+#content1{
+    padding-left: 200px;
+}
 .kitchen{
     height: 500px;
     width: 600px;
@@ -42,6 +46,44 @@ a:hover {
 .sub-img{
     height: 70px;
     padding-right: 15px;
+}
+#sect{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 5px;
+}
+.description{
+    width: 500px;
+}
+#list{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 5px;
+}
+.list{
+    display: flex;
+}
+#sect1{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+#listings{
+    display: flex;
+}
+.listing-flex{
+    width:300px;
+    text-align:left;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+section > #listings > .listing-flex > img{
+    height: 240px;
 }
 .footer{
     padding-top: 50px;
