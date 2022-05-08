@@ -1,3 +1,6 @@
+body{
+    font-family: po;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -16,6 +19,9 @@ nav > .nav > a{
 nav > .nav > a, .header > p{
     color: white;
 }
+a:hover {
+    background-color: #d82929;
+  }
 
 #sectionHeader{
     background-image: url("../images/moving\ 1.png");
@@ -43,6 +49,9 @@ nav > .nav > a, .header > p{
     display: flex;
     padding-top: 40px;
 }
+.hr{
+    
+}
 .image1{
     height: 600px;
 }
@@ -64,6 +73,9 @@ nav > .nav > a, .header > p{
     padding-bottom: 50px;
     background-color: black;
     color: white;
+}
+hr{
+    width: 780px;
 }
 footer > h3{
     font-size: 40px;
