@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(245,245,245);
+}
 #navigation{
     background-color: rgb(22,15,2);
     color: white;
@@ -31,7 +34,9 @@ nav button{
 }
 .kitchen{
     height: 500px;
+    width: 600px;
 }
 .sub-img{
-    height: 95px;
+    height: 70px;
+    padding-right: 15px;
 }
