@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(245,245,245);
+    margin-left: 40px;
+}
+#navigation{
+    background-color: rgb(22,15,2);
+    color: white;
+}
+nav{
+    display: flex;
+    padding-top: 45px;
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+nav a{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 15px;
+    color: white;
+}
+nav button{
+    background-color: rgb(250,172,49);
+    font-size: 20px;
+    border-top-right-radius: 10px;
+}
+a:hover {
+    background-color: #d82929;
+  }
+#header{
+    display: flex;
+    padding-left: 170px;
+    padding-bottom: 10px;
+}
+.header2{
+    padding-left: 550px;
+}
+#content1{
+    padding-left: 200px;
+}
+.kitchen{
+    height: 500px;
+    width: 600px;
+}
+.sub-img{
+    height: 70px;
+    padding-right: 15px;
+}
+#sect{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 5px;
+}
+.description{
+    width: 500px;
+}
+#list{
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 5px;
+}
+.list{
+    display: flex;
+}
+#sect1{
+    margin-left: 200px;
+    margin-top: 5px;
+}
+#listings{
+    display: flex;
+}
+.listing-flex{
+    width:300px;
+    text-align:left;
+    display:block;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+section > #listings > .listing-flex > img{
+    height: 240px;
+}
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    color: white;
+}
+footer > h3{
+    font-size: 40px;
+    padding-left: 240px;
+}
+footer > div > span > img{
+    height: 25px;
+    width: 25px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+footer > div{
+    display: flex;
+    padding-left: 250px;
+}
+
+th, tr{
+    padding-right: 70px;
+}
+tr{
+    padding-bottom: 10px;
+}
+.foot{
+    color: #FAFF00;
+    padding-right: 90px;
+}
+footer > div > span{
+    padding-right: 100px;
+}
+.footer-button{
+    background-color: rgb(250,172,49);
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    
+}

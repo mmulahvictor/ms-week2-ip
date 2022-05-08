@@ -35,6 +35,10 @@ nav > .nav > a, .header > p{
     padding-left: 60px;
     font-size: 35px;
 }
+.button{
+    background-color: black;
+    color: #FAFF00;
+}
 .sect1{
     display: flex;
     padding-top: 40px;
@@ -63,15 +67,17 @@ nav > .nav > a, .header > p{
 }
 footer > h3{
     font-size: 40px;
+    padding-left: 240px;
 }
 footer > div > span > img{
     height: 25px;
     width: 25px;
+    padding-top: 20px;
+    padding-right: 5px;
 }
 footer > div{
     display: flex;
     padding-left: 250px;
-    border: solid 3px white;
 }
 
 th, tr{
