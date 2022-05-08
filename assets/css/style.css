@@ -24,6 +24,9 @@ nav button{
     font-size: 20px;
     border-top-right-radius: 10px;
 }
+a:hover {
+    background-color: #d82929;
+  }
 #header{
     display: flex;
     padding-left: 170px;
