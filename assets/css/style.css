@@ -39,9 +39,31 @@ a:hover {
 #content1{
     padding-left: 200px;
 }
+.form{
+    display: flex;
+}
 .kitchen{
     height: 500px;
     width: 600px;
+}
+form{
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+form > input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    margin-top: 25px;
+}
+#form_button{
+    color: white;
+    background-color: black;
 }
 .sub-img{
     height: 70px;
