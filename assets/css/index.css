@@ -1,11 +1,13 @@
 body{
     font-family: po;
+    width: 100%;
 }
 nav{
     display: flex;
     justify-content: space-between;
     padding-top: 45px;
     padding-left: 500px;
+
 }
 
 nav > .nav > a{
@@ -58,15 +60,16 @@ a:hover {
 }
 .movers{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .flex{
-    width:600px;
+    width:400px;
     text-align:left;
     display:block;
     margin-right: 10px;
     margin-bottom: 1px;
     float:left;
-    flex-wrap: wrap;
 }
 .hustle{
     padding-left: 100px;
